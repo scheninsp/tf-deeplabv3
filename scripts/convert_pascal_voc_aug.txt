@@ -1,0 +1,8 @@
+python mat2png.py $DATASETS/VOC_aug/dataset/cls $DATASETS/VOC_aug/dataset/cls_png
+
+cd $DATASETS/VOC2012_orig
+mkdir SegmentationClass_1D
+cd $DATASETSDIR
+./convert_labels.py $DATASETS/VOC2012_orig/SegmentationClass/ \
+  $DATASETS/VOC2012_orig/ImageSets/Segmentation/trainval.txt \
+  $DATASETS/VOC2012_orig/SegmentationClass_1D/
