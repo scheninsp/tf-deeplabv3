@@ -1,0 +1,2 @@
+model_checkpoint_path: "/data/pascal_voc_seg/checkpoints/model.ckpt"
+all_model_checkpoint_paths: "/data/pascal_voc_seg/checkpoints/model.ckpt"
